@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #E6E6FA, #D8BFD8);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.login-form {
+    padding: 40px;
+    width: 300px;
+}
+
+.login-form h2 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.login-form p {
+    margin-bottom: 10px;
+}
+
+.login-form a {
+    color: #6a5acd;
+    text-decoration: none;
+}
+
+.login-form a:hover {
+    text-decoration: underline;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6a5acd;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #5a4cb0;
+}
+
+.login-alternatives {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.login-alternatives p {
+    margin: 0;
+}
+
+.login-alternatives button {
+    margin: 5px 0;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f5;
+    cursor: pointer;
+}
+
+.google {
+    background-color: #db4437;
+    color: white;
+}
+
+.facebook {
+    background-color: #3b5998;
+    color: white;
+}
+
+.twitter {
+    background-color: #1da1f2;
+    color: white;
+}
+
+.login-image {
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .login-image {
+        display: block;
+    }
+
+    .login-form {
+        width: 400px;
+    }
+
+    .login-image img {
+        width: 400px;
+        height: auto;
+    }
+}
+ 
