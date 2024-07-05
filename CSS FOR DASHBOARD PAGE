@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #f0f0f0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+}
+
+.signup-box {
+    display: flex;
+    width: 100%;
+}
+
+.image-side {
+    flex: 1;
+    text-align: center; /* Center the image */
+}
+
+.image-side img {
+    max-width: 100%;
+    height: auto;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.form-side {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form-side h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.input-group i {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    color: #666;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px 10px 10px 30px;
+    background: #f1f1f1;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.remember-me input {
+    margin-right: 10px;
+}
+
+.btn {
+    background: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #0056b3;
+}
+
+.create-account {
+    margin-top: 10px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+}
+
+.or-login {
+    margin: 20px 0;
+    color: #666;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center; /* Center the social buttons */
+}
+
+.social-btn {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.social-btn i {
+    margin-right: 5px; /* Adjust spacing between icon and text */
+}
+
+.social-btn.facebook {
+    background: #3b5998;
+    color: #fff;
+}
+
+.social-btn.twitter {
+    background: #00acee;
+    color: #fff;
+}
+
+.social-btn.google {
+    background: #db4437;
+    color: #fff;
+}
+
+.social-btn:hover {
+    opacity: 0.8;
+}
